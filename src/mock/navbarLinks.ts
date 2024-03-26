@@ -3,15 +3,9 @@ export const navbarItems = [
 
     {
       "id": 1,
-      "path": "/home",
+      "path": "/",
       "label": "Home",
       "icon": MdHome
-    },
-    {
-      "id": 2,
-      "path": "/noticias",
-      "label": "Notícias",
-      "icon": MdOutlineNewspaper
     },
     {
       "id": 3,
@@ -33,3 +27,5 @@ export const navbarItems = [
     }
 
   ];
+
+  
