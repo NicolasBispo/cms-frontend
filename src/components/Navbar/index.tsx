@@ -7,7 +7,7 @@ export function Navbar() {
   return (
     <nav className="w-full flex flex-col">
       <div className="flex items-center justify-between py-5 px-10 font-poppins">
-        <h1 className="text-2xl">Nosso blog</h1>
+        <Link href="/"><h1 className="text-2xl">Nosso blog</h1></Link>
         <ul className="flex items-center gap-4 text-lg">
           {navbarItems.map((item) => (
             <li key={item.id}>
