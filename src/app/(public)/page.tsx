@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="w-full h-full bg-white text-black min-h-screen min-w-screen">
-      <Navbar />
+      
       <main className="flex flex-col w-full gap-2">
         <section className="w-full px-24 text-6xl text-black/80 font-bold font-bebas flex justify-center bg-blue-500/20 py-10">
           <span className="text-center">
@@ -138,7 +138,7 @@ export default function Home() {
         </section>
         <section
           id="category-post-section"
-          className="px-16 py-2 flex flex-col bg-blue-200/20"
+          className="px-16 pt-2 pb-24 flex flex-col bg-blue-200/20"
         >
           <span className="text-2xl font-bold text-center py-10">
             Encontrar por categorias
