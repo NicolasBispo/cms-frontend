@@ -1,0 +1,1 @@
+export const noImage = "/no-image.jpeg"

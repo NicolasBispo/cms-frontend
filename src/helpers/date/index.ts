@@ -8,3 +8,4 @@ export function humanizeDate(date: Date) {
   const formattedDate = dayjs(date);
   return formattedDate.fromNow();
 }
+
